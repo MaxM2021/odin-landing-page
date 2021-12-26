@@ -1,0 +1,128 @@
+body {
+    font-family: roboto, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+    background-color: #1E2836;
+    color: #F7F8F9;
+    flex: 0;
+}
+
+#header h6 {
+    margin: 0;
+    margin-right: auto;
+    color: f9faf8;
+    font-size: 24px;
+}
+
+#header a {
+    margin: 5px;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#header a:hover {
+    margin: 5px;
+    color: #3B82F6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1E2836;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 50px 150px 50px 150px;
+
+}
+
+#heroimage img {
+    width:
+}
+
+#herotext a {
+    background-color:#3A80F4;
+    text-decoration: none;
+    font-weight: 600;
+    color: #F7F8F9;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    
+}
+
+#herotext h6 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#herotext h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2836;
+    color: #F7F8F9;
+    flex: 1;
+}
+
+.info {
+    background-color: #FFFFFF;
+    display: flex;
+    flex: 1;
+
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.image img {
+    object-fit: contain;
+    object-position: -50% -50%;
+}
+
+.bigquote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+}
+
+.action {
+    background-color: #FFFFFF;
+    display: flex;
+    flex: 1;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #1E2836;
+    color: #F7F8F9;
+    flex: 1;
+}
